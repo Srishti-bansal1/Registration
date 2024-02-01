@@ -10,9 +10,9 @@ step 1 : open terminal and clone the code by executing *git clone <https://githu
 <br>
 step 2 : Install virtual environment  with command : pip install virtualenv
 <br>
-step 3 : Activate the virtual environment with command : source  <REgEnv>/bin/activate
+step 3 : Activate the virtual environment with command : source  REgEnv/bin/activate
 <br>
-step 4 : Move in projct file with command : cd <RegPro>
+step 4 : Move in projct file with command : cd RegPro
 <br>
 step 5 : Execute migration command to create table in database using command : python mange.py migrate
 <br>
