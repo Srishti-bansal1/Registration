@@ -1,7 +1,7 @@
 # Introduction <br>
 This is a student registration project. In this project I used python language (version 3.9 ) & Django Rest framework (version 4.2.9). This project  used to enrolled the student , read the student information, update the informations and delete the details.  <br>
 In this project , I Designed a model and their fields are name , dob , email , state , city , pin.  Migrated the model to create a Table. Connected with MYSQL database. Created APIs for Create, Read, Update and Delete operation. <br>
-'register/reg/show' use for read <br> 'register/reg/create' use for create <br> 'register/reg/<id>/modify' use for update <br> 'register/reg/delete_all' use for delete all registration. 
+`register/reg/show` use for read <br> 'register/reg/create' use for create <br> 'register/reg/<id>/modify' use for update <br> 'register/reg/delete_all' use for delete all registration. 
 <br>
 
 
