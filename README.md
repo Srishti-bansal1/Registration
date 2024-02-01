@@ -22,14 +22,16 @@ step 6 : Run the server with command : python manage.py runserver 8002
 # API Documentation -<br>
         1. Create :- End point - register/reg/create 
 
-                     request body - {	"name"   : <str> ,
+                     request body - {	
+                                        "name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
                                         "state"  : <str> ,
                                         "city"   : <str> ,
                                         "pin"    : <int>
                                         }	
-                     response body - {	"id "    : <int>,
+                     response body - {	
+                                        "id "    : <int>,
                                         "name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
@@ -41,7 +43,8 @@ step 6 : Run the server with command : python manage.py runserver 8002
 
         2. Read :- End point - register/reg/show 
         
-                   response body - {	"id "    : <int>,
+                   response body - {	
+                                        "id "    : <int>,
                                         "name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
@@ -53,7 +56,8 @@ step 6 : Run the server with command : python manage.py runserver 8002
 
         3. Update :-  End point - register/reg/<id>/modify
         
-                      request body - {	"name"   : <str> ,
+                      request body - {	
+                                        "name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
                                         "state"  : <str> ,
@@ -61,7 +65,8 @@ step 6 : Run the server with command : python manage.py runserver 8002
                                         "pin"    : <int>
                                         }	
                                     
-                      response body - {	"id "    : <int>,
+                      response body - {	
+                                        "id "    : <int>,
                                         "name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
