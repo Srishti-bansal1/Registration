@@ -21,7 +21,7 @@ step 6 : Run the server with command : python manage.py runserver 8002
 
 # API Documentation -<br>
         1. Create :- End point - register/reg/create 
-         <br>
+
                      request body - {	"name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
@@ -29,7 +29,6 @@ step 6 : Run the server with command : python manage.py runserver 8002
                                         "city"   : <str> ,
                                         "pin"    : <int>
                                         }	
-                                        <br>
                      response body - {	"id "    : <int>,
                                         "name"   : <str> ,
                                         "dob"    : <str>,
@@ -38,10 +37,10 @@ step 6 : Run the server with command : python manage.py runserver 8002
                                         "city"   : <str> ,
                                         "pin"    : <int>
                                         }
-                                        <br>	
+                                    	
 
         2. Read :- End point - register/reg/show 
-        <br>
+        
                    response body - {	"id "    : <int>,
                                         "name"   : <str> ,
                                         "dob"    : <str>,
@@ -50,10 +49,10 @@ step 6 : Run the server with command : python manage.py runserver 8002
                                         "city"   : <str> ,
                                         "pin"    : <int>
                                         }	
-                                        <br>
+                                        
 
         3. Update :-  End point - register/reg/<id>/modify
-        <br>
+        
                       request body - {	"name"   : <str> ,
                                         "dob"    : <str>,
                                         "email"  : <str>,
@@ -61,7 +60,7 @@ step 6 : Run the server with command : python manage.py runserver 8002
                                         "city"   : <str> ,
                                         "pin"    : <int>
                                         }	
-                                        <br>
+                                    
                       response body - {	"id "    : <int>,
                                         "name"   : <str> ,
                                         "dob"    : <str>,
@@ -70,8 +69,8 @@ step 6 : Run the server with command : python manage.py runserver 8002
                                         "city"   : <str> ,
                                         "pin"    : <int>
                                         }	       
-                                        <br>                       
+                                                     
         
         4. Delete :- End point - register/reg/delete_all
-        <br>
+    
                      response body - empty
